@@ -1,0 +1,30 @@
+/* Write your CSS here */
+.each {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100px;
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #b5b7c4;
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.star-button {
+  border: 0px;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+}
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.star-img {
+  height: 30px;
+}
+.date {
+  color: #b5b7c4;
+}
